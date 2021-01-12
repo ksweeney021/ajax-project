@@ -10,69 +10,55 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="calculator-output center">
-        0
-    </div>
-    <div class="calculator-button-box center">
-        <div class="calculator-clear-button">
-            C
-        </div>
-        <div class="calculator-grey-button">
-            <i class="material-icons">arrow_back</i>
-        </div>
-        <div class="calculator-operator-buttons">
-            <i class="fas fa-divide"></i>
-        </div>
-    </div>
-    <div class="calculator-button-box">
-        <div class="calculator-grey-button">
-            7
-        </div>
-        <div class="calculator-grey-button">
-            8
-        </div>
-        <div class="calculator-grey-button">
-            9
-        </div>
-        <div class="calculator-operator-buttons">
-            <i class="fas fa-times"></i>
-        </div>
-    </div>
-    <div class="calculator-button-box">
-        <div class="calculator-grey-button">
-            4
-        </div>
-        <div class="calculator-grey-button">
-            5
-        </div>
-        <div class="calculator-grey-button">
-            6
-        </div>
-        <div class="calculator-operator-buttons">
-            <i class="fas fa-minus"></i>
-        </div>
-    </div>
-    <div class="calculator-button-box">
-        <div class="calculator-grey-button">
-            1
-        </div>
-        <div class="calculator-grey-button">
-            2
-        </div>
-        <div class="calculator-grey-button">
-            3
-        </div>
-        <div class="calculator-operator-buttons">
-            <i class="fas fa-plus"></i>
-        </div>
-    </div>
-    <div class="calculator-button-box">
-        <div class="calculator-zero-button">
+    <div class="calculator">
+        <section class="screen">
             0
+        </section>
+
+        <section class="calculator-buttons">
+        <div class="calculator-button-row">
+            <button class="calculator-button clear">C</button>
+            <button class="calculator-button grey">
+                    <i class="material-icons">arrow_back</i>
+            </button>
+            <button class="calculator-button orange">
+                <i class="fas fa-divide"></i>
+            </button>
         </div>
-        <div class="calculator-operator-buttons">
-            <i class="fas fa-equals"></i>
+        <div class="calculator-button-row">
+            <button class="calculator-button grey">7</button>
+            <button class="calculator-button grey">8</button>
+            <button class="calculator-button grey">9</button>
+            <button class="calculator-button orange">
+                <i class="fas fa-times"></i>
+            </button>
         </div>
+        <div class="calculator-button-row">
+            <button class="calculator-button grey">4</button>
+            <button class="calculator-button grey">5</button>
+            <button class="calculator-button grey">6</button>
+            <button class="calculator-button orange">
+                <i class="fas fa-minus"></i>
+            </button>
+        </div>
+        <div class="calculator-button-row">
+            <button class="calculator-button grey">1</button>
+            <button class="calculator-button grey">2</button>
+            <button class="calculator-button grey">3</button>
+            <button class="calculator-button orange">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+        <div class="calculator-button-row">
+            <button class="calculator-button zero">0</button>
+            <button class="calculator-button grey">.</button>
+            <button class="calculator-button orange">
+                <i class="fas fa-equals"></i>
+            </button>
+        </div>
+    </section>
+
     </div>
+    <script src="./calculator.js"></script>
 </body>
 </html>
